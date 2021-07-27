@@ -1,16 +1,9 @@
-#import time
-
-#timer = 0.00
-
 while True:	
 
-	n = int(input("Введите число "))
+	n = int(input("Вход: "))
+	print("Формула: n**n**2")
+	print("Выход:",n**n**2)
 
-	colvo=(len(str(n+n**2+41**n+n**2+41**n)))
+	colvo=(len(str(n**n**2)))
 
-#        while (3):
-#		sleep.time(0.01)
-#		timer = timer + 0.01
-
-	print(n+n**2+41**n+n**2+41, colvo,"символов")
-	#print(timer)
+	print("Кол-во символов:",colvo)

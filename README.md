@@ -10,7 +10,7 @@
 
 #pkg install git
 
-#git clone https://github.com/TiMoShKa5118/Computer-test
+#git clone https://github.com/TiMoShKa5118/Device-test
 
 #cd Computer-test
 

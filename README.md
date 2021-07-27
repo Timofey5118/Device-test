@@ -1,5 +1,7 @@
 # Computer-test
 
+#Termux
+
 #apt update
 
 #apt upgrade

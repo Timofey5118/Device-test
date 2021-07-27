@@ -8,7 +8,7 @@ while True:
 
 	colvo=(len(str(n+n**2+41**n+n**2+41**n)))
 
-        while True:
+        while (3):
 		sleep.time(0.01)
 		timer = timer + 0.01
 

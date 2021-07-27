@@ -1,4 +1,4 @@
-# Computer-test
+# Device-test
 
 #Termux
 

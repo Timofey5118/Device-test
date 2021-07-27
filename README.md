@@ -12,6 +12,6 @@
 
 #git clone https://github.com/TiMoShKa5118/Device-test
 
-#cd Computer-test
+#cd Device-test
 
 #python test.py

@@ -1,4 +1,4 @@
-types = int(input("1 - low, 2 - medium, 3 - hard"))
+types = int(input("1 - low, 2 - medium, 3 - hard: "))
 
 if types == 1:
 

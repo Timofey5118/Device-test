@@ -1,9 +1,13 @@
 while True:	
 
 	n = int(input("Вход: "))
-	print("Формула: n**n**2")
-	print("Выход:",n**n**2)
 
-	colvo=(len(str(n**n**2)))
+	print("Формула: n**n**2**2**2**2")
+
+	number = n**n**2**2**2**2
+
+	colvo=(len(str(number)))
+
+	print("Выход:",number)
 
 	print("Кол-во символов:",colvo)

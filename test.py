@@ -1,13 +1,49 @@
-while True:	
+types = int(input("1 - low, 2 - medium, 3 - hard"))
 
-	n = int(input("Вход: "))
+if types == 1:
 
-	print("Формула: n**n**2**2**2**2")
+	while True:	
 
-	number = n**n**2**2**2**2
+		n = int(input("Вход: "))
 
-	colvo=(len(str(number)))
+		print("Формула: n**n**2")
 
-	print("Выход:",number)
+		number = n**n**2
 
-	print("Кол-во символов:",colvo)
+		colvo=(len(str(number)))
+
+		print("Выход:",number)
+
+		print("Кол-во символов:",colvo)
+
+elif types == 2:
+
+	while True:	
+
+		n = int(input("Вход: "))
+
+		print("Формула: n**n**2**2")
+
+		number = n**n**2**2
+
+		colvo=(len(str(number)))
+
+		print("Выход:",number)
+
+		print("Кол-во символов:",colvo)
+
+elif types == 3:
+
+	while True:	
+
+		n = int(input("Вход: "))
+
+		print("Формула: n**n**2**2**2**2")
+
+		number = n**n**2**2**2**2
+
+		colvo=(len(str(number)))
+
+		print("Выход:",number)
+
+		print("Кол-во символов:",colvo)

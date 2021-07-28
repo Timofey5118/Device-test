@@ -22,9 +22,9 @@ elif types == 2:
 
 		n = int(input("Вход: "))
 
-		print("Формула: n**n**2**2")
+		print("Формула: n**n**4")
 
-		number = n**n**2**2
+		number = n**n**4
 
 		colvo=(len(str(number)))
 
@@ -38,9 +38,9 @@ elif types == 3:
 
 		n = int(input("Вход: "))
 
-		print("Формула: n**n**2**2**2**2")
+		print("Формула: n**n**16")
 
-		number = n**n**2**2**2**2
+		number = n**n**16
 
 		colvo=(len(str(number)))
 
